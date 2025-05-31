@@ -20,8 +20,8 @@ function renderSongs(filterText = '') {
       <div class="song_player_card" style="display:flex;align-items:center;gap:12px;margin:12px 0;cursor:pointer;" data-key="${key}">
         <img src="${song.cover}" alt="${song.title}" style="width:50px;height:50px;object-fit:cover;border-radius:8px;">
         <div>
-          <div class="song_player_card" style="font-weight:bold;">${song.title}</div>
-          <div class="song_player_card" style="font-size:0.9em;">${song.artist}</div>
+          <div  style="font-weight:bold;">${song.title}</div>
+          <div  style="font-size:0.9em;">${song.artist}</div>
         </div>
       </div>
     `;
