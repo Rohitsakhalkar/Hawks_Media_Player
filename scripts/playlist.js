@@ -62,9 +62,6 @@ function populateDropdowns() {
   const songSelector = document.getElementById('song_selector');
   const playlistSelector = document.getElementById('playlist_selector');
   
-  songSelector.innerHTML = '<option value="">Select a song</option>';
-  playlistSelector.innerHTML = '<option value="">Select a playlist</option>';
-  
   Object.keys(songs).forEach(songName => {
     const option = document.createElement('option');
     option.value = songName;
