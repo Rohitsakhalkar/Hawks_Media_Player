@@ -53,7 +53,7 @@ window.deletePlaylist = function(name) {
   renderPlaylists();
 };
 
-renderPlaylists();
+
 //function for dropdown menu to add songs in the playlist
 function populateDropdowns() {
   const songSelector = document.getElementById('song_selector');
@@ -93,5 +93,5 @@ document.getElementById('add_song_btn').onclick = () => {
   }
   else alert("Song already exist in playlists");
 };
-
+renderPlaylists();
 populateDropdowns();
