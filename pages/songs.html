@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawks Media Player</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <img src="../assets/Hawks_logo.png" id="logo" alt="Logo">
+            <ul class="nav_bar">
+                <li class="nav_items"><a class="nav_links" href="../index.html">Home</a></li>
+                <li class="nav_items"><a class="nav_links" href="playlist.html">Playlist</a></li>
+                <li class="nav_items"><a class="nav_links" href="songs.html">Songs</a></li>
+                <select class="theme_selector" id="themes">
+                    <option >Theme</option>
+                    <option value="dark" class="options_themes">Dark</option>
+                    <option value="light" class="options_themes">Light</option>
+                    <option value="default" class="options_themes">Default</option>
+                </select>
+            </ul>
+        </nav>
+    </header>
+    <input 
+  type="text" 
+  id="song_search" 
+  placeholder="Search songs..." 
+  style="margin: 20px auto; display: block; width: 80%; padding: 10px; font-size: 16px; border-radius: 8px; border: 1px solid ;"
+    />
+    <div id="song_list"></div>
+    <script type="module" src="../songs/songs_list.js"></script>
+    <script src="../scripts/theme.js"></script>
+</body>
+</html>

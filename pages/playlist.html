@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawks Media Player</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <img src="../assets/Hawks_logo.png" id="logo" alt="Logo">
+            <ul class="nav_bar">
+                <li class="nav_items"><a class="nav_links" href="../index.html">Home</a></li>
+                <li class="nav_items"><a class="nav_links" href="playlist.html">Playlist</a></li>
+                <li class="nav_items"><a class="nav_links" href="songs.html">Songs</a></li>
+                <select class="theme_selector" id="themes">
+                    <option >Theme</option>
+                    <option value="dark" class="options_themes">Dark</option>
+                    <option value="light" class="options_themes">Light</option>
+                    <option value="default" class="options_themes">Default</option>
+                </select>
+            </ul>
+        </nav>
+    </header>
+<div class="playlist_container" >
+  <input id="new_playlist_name" placeholder="New playlist name" />
+  <button id="create_playlist_btn">Create Playlist</button>
+</div>
+<div class="playlist_container" >
+ <div id="list_container">
+  <select id="song_selector">
+    <option value="">Select a song</option>
+  </select>
+  <select id="playlist_selector">
+    <option value="">Select a playlist</option>
+  </select>
+</div>
+  <button id="add_song_btn">Add Song to Playlist</button>
+</div>
+<div id="playlists"></div>
+
+
+<script type="module" src="../scripts/playlist.js"></script>
+<script src="../scripts/theme.js"></script>
+</body>
+</html>
