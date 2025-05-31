@@ -45,6 +45,9 @@ document.getElementById('create_playlist_btn').onclick = () => {
   renderPlaylists();
   document.getElementById('new_playlist_name').value = '';
 };
+renderPlaylists();
+populateDropdowns();
+
 //deletion of playlist
 window.deletePlaylist = function(name) {
   const playlists = getPlaylists();
@@ -93,5 +96,3 @@ document.getElementById('add_song_btn').onclick = () => {
   }
   else alert("Song already exist in playlists");
 };
-renderPlaylists();
-populateDropdowns();
