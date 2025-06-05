@@ -4,30 +4,30 @@
 
 <h1 text-align=center;>🚀 Features </h1>
 
-<h4>🎧 Add & Manage Playlists using LocalStorage
+<h4><li>🎧 Add & Manage Playlists using LocalStorage</li>
 
-🎨 Multiple Themes (Dark, Light, Default)
+<li>🎨 Multiple Themes (Dark, Light, Default)</li>
 
-📱 Responsive Design for all screen sizes
+<li>📱 Responsive Design for all screen sizes</li>
 
-⚡ Single Page Navigation with dynamic song loading
+<li>⚡ Single Page Navigation with dynamic song loading</li>
 
-💾 Ready for Firebase integration (Auth, Firestore, Storage)</h4>
+<li>💾 Ready for Firebase integration (Auth, Firestore, Storage </li></h4>
 
 
 <h1 text-align=center;>🛠️ Built With </h1>
 
-<h4>HTML5
+<h4><li>HTML5</li>
 
-CSS3
+<li>CSS3</li>
 
-JavaScript (ES6)
+<li>JavaScript (ES6)</li>
 
-Firebase SDK (Future Use)
+<li>Firebase SDK (Future Use)</li>
 
-LocalStorage API
+<li>LocalStorage API</li>
 
-Vercel (Deployment)</h4>
+<li>Vercel (Deployment)</li></h4>
 
 
 <h1 text-align=center;>🌐 Live Demo</h1>
@@ -39,9 +39,9 @@ Vercel (Deployment)</h4>
 
 <h4>
  <li> Add user authentication (Firebase Auth).</li>
+<li>
+ Store playlists in Firestore. </li>
 
-Store playlists in Firestore. 
+<li> Stream music from Firebase Storage or a public API. </li>
 
-Stream music from Firebase Storage or a public API. 
-
-User account system. </h4>
+<li>User account system. </li></h4>
