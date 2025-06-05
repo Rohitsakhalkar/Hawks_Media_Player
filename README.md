@@ -1,4 +1,4 @@
-🎵 Hawks Music Player
+<h1 text-align=center;>🎵 Hawks Music Player</h1>
 
 A responsive and themeable music player built using HTML, CSS, and JavaScript, with LocalStorage for playlist management and a smooth user experience. Designed for the web, Hawks Music Player gives users the freedom to create playlists, switch themes, and enjoy a clean music interface — all without backend dependencies (yet 😉).
 
