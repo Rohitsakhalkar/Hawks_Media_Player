@@ -45,3 +45,10 @@
 <li> Stream music from Firebase Storage or a public API. </li>
 
 <li>User account system. </li></h4>
+
+<h1 text-align="center"> 👨‍💻 Author</h1>
+<h2> Hey there! I’m Rohit Sakhalkar, a frontend developer with a passion for real-world UI development and solving problems with clean code.</h2>
+
+-🔗 GitHub: @Rohitsakhalkar
+
+-📬 Email: rohitsakhalkar3@gmail.com
